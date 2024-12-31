@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* BASE STYLING START */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+/* BASE STYLING END */
+
+/* HEADERTOP START */
+.headerTop {
+  background-color: #007878;
+  color: white;
+  height: 48px;
+  width: 100%;
+}
+
+.headerTopItems {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 48px;
+}
+
+.headerTopItems a {
+  color: white;
+  text-decoration: none;
+}
+
+.headerTopLinks {
+  display: flex;
+  gap: 18px;
+  font-weight: 350;
+  color: #ffffffbf;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* HEADERTOP END */
+
+/* HEADER START */
+
+
+.navbarItems {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.navbarItems a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-brand {
+  font-size: 38px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 504px;
+}
+
+.search-bar input {
+  background-color: #f7f9fc;
+  height: 48px;
+  border: 2px solid #f7f9fc;
+  padding: 12px 15px;
+  width: 504px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+
+}
+
+.search-bar input:focus {
+      border: 2px solid #007878;
+      outline: none;
+}
+
+.search-bar i {
+  position: absolute;
+  right: 10px;
+  font-size: 16px;
+  color: #666;
+  cursor: pointer;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.navbar-icons .icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar-icons .icon i {
+  margin-right: 6px;
+  font-size: 20px;
+  color: #000;
+}
+
+.navbarMainLinks {
+  padding-top: 31px;
+}
+.navbarMainLinks ul {
+  display: flex;
+  gap: 54px;
+  list-style: none;
+}
+
+.navbarMainLinks a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* HEADER END */
+
