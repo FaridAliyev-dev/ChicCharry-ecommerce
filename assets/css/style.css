@@ -2,6 +2,7 @@
 
 /* BASE STYLING START */
 .container {
+      width: 100%; 
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -59,7 +60,6 @@ body {
 
 /* HEADER START */
 
-
 .navbarItems {
   display: flex;
   justify-content: space-between;
@@ -82,24 +82,23 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  width: 504px;
+  width: 50%;
 }
 
 .search-bar input {
+      width: 100%;
   background-color: #f7f9fc;
   height: 48px;
   border: 2px solid #f7f9fc;
   padding: 12px 15px;
-  width: 504px;
   border-radius: 8px;
   box-sizing: border-box;
   transition: 0.3s ease-in-out;
-
 }
 
 .search-bar input:focus {
-      border: 2px solid #007878;
-      outline: none;
+  border: 2px solid #007878;
+  outline: none;
 }
 
 .search-bar i {
@@ -147,4 +146,3 @@ body {
   font-weight: 300;
 }
 /* HEADER END */
-
