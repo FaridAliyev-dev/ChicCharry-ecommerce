@@ -59,6 +59,9 @@ body {
 /* HEADERTOP END */
 
 /* HEADER START */
+.navbar {
+  padding-bottom: 24px;
+}
 
 .navbarItems {
   display: flex;
@@ -146,3 +149,65 @@ body {
   font-weight: 300;
 }
 /* HEADER END */
+
+/* HAMBURGER START */
+.hamburger {
+  background-color: #ffe2e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.hamburgerItems {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+.hamburgerContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+
+.hamburgerContent img {
+  width: 100%;
+  height: auto;
+  max-width: 100%
+}
+
+.hamburgerContent p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hamburgerContent h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.hamburgerContent button {
+  background-color: #007878;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width: 192px;
+  margin-top: 48px;
+  height: 52px;
+}
+
+.hamburgerContent button:hover {
+  background-color: #005959;
+}
+
+
+/* HAMBURGER END */

@@ -1,3 +1,5 @@
+
+
 @media (min-width: 1200px) {
   .navbarButton {
     display: none;
@@ -28,10 +30,6 @@
     display: none;
   }
 
-  .number i,
-  p {
-    display: none;
-  }
 
   .number {
     display: none !important;
