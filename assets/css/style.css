@@ -160,11 +160,11 @@ body {
 }
 
 .hamburgerItems {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .hamburgerContent {
   display: flex;
@@ -175,7 +175,7 @@ body {
 .hamburgerContent img {
   width: 100%;
   height: auto;
-  max-width: 100%
+  max-width: 100%;
 }
 
 .hamburgerContent p {
@@ -211,23 +211,95 @@ body {
 
 /* HAMBURGER BOTTOM START */
 .hamburgerBottom {
-      background-color: #F7F7F7;
-      display: flex;
-      padding: 0 ;
-      align-items: center;
-      flex-direction: row;
+  background-color: #f7f7f7;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  flex-direction: row;
 }
 
 .hamburgerBottomItems {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 48px 0;
-      flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 0;
+  flex-direction: row;
 }
 
 /* HAMBURGER BOTTOM END */
-
 /* HAMBURGER END */
 
+/* PRODUCT CATEGORY START*/
 
+.category {
+  padding: 80px 0;
+}
+
+.categoryItem {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  height: 162px;
+  width: 264px;
+  background-color: #f5f5f5;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+
+}
+
+.item1 p,
+.item2 p,
+.item3 p,
+.item4 p {
+  padding: 24px;
+}
+
+/* PRODUCT CATEGORY END */
+.shopImageContainer1 {
+  width: 163px;
+  height: 157px;
+  position: absolute;
+  right: -25px;
+  bottom: -15px;
+}
+.shopImageContainer2  {
+  width: 180px;
+  height: 114px;
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+}
+
+.shopImageContainer3 {
+  width: 160px;
+  height: 170px;
+  position: absolute;
+  right: -45px;
+  bottom: -40px;
+}
+
+.shopImageContainer4 img{
+  width: 167px;
+  height: 123px;
+  position: absolute;
+  right: -20px;
+  bottom: -25px;
+}
