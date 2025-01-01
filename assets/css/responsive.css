@@ -1,3 +1,41 @@
-@media (max-width: 1268px) {
-      
+@media (min-width: 1200px) {
+  .navbarButton {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar input {
+    display: none;
+  }
+
+  .navbar .search-bar {
+    display: none;
+  }
+
+  .navbar .navbar-icons {
+    display: none;
+  }
+
+  .navbarButton {
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .navbarMainLinks {
+    display: none;
+  }
+
+  .number i,
+  p {
+    display: none;
+  }
+
+  .number {
+    display: none !important;
+  }
+
+  
 }

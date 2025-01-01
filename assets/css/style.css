@@ -2,7 +2,7 @@
 
 /* BASE STYLING START */
 .container {
-      width: 100%; 
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -86,7 +86,7 @@ body {
 }
 
 .search-bar input {
-      width: 100%;
+  width: 100%;
   background-color: #f7f9fc;
   height: 48px;
   border: 2px solid #f7f9fc;
