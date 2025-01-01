@@ -1,0 +1,8 @@
+@media (max-width: 1100px) {
+  .categoryItem {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -262,7 +262,6 @@ body {
   width: 100%;
   object-fit: contain;
   object-position: center;
-
 }
 
 .item1 p,
@@ -272,7 +271,6 @@ body {
   padding: 24px;
 }
 
-/* PRODUCT CATEGORY END */
 .shopImageContainer1 {
   width: 163px;
   height: 157px;
@@ -280,7 +278,7 @@ body {
   right: -25px;
   bottom: -15px;
 }
-.shopImageContainer2  {
+.shopImageContainer2 {
   width: 180px;
   height: 114px;
   position: absolute;
@@ -296,10 +294,11 @@ body {
   bottom: -40px;
 }
 
-.shopImageContainer4 img{
+.shopImageContainer4 img {
   width: 167px;
   height: 123px;
   position: absolute;
   right: -20px;
   bottom: -25px;
 }
+/* PRODUCT CATEGORY END */
