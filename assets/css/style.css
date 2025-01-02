@@ -240,6 +240,7 @@ body {
   flex-direction: row;
   gap: 24px;
   justify-content: center;
+  cursor: pointer;
 }
 
 .item1,
@@ -302,3 +303,16 @@ body {
   bottom: -25px;
 }
 /* PRODUCT CATEGORY END */
+
+
+/* FEATURED PRODUCTS START */
+
+
+.featuredProductsText {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+
+/* FEATURED PRODUCTS END */
