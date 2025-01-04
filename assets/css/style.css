@@ -531,8 +531,13 @@ body {
 }
 
 .heartButton i {
+  display: absolute;
+  right: 0px;
   font-size: 20px;
   color: #df4244;
   cursor: pointer;
 }
+
+
 /* BESTSELLERS END */
+

@@ -12,17 +12,19 @@ function DisplayCards(arr) {
     const status = document.createElement("div");
     status.classList.add("status");
 
-    const activeSale = document.createElement("div");
-    activeSale.classList.add("activeSale");
-    const saleText = document.createElement("p");
-    saleText.textContent = product.discount + "%";
-    activeSale.appendChild(saleText);
+    if (product.discount) {
+      const activeSale = document.createElement("div");
+      activeSale.classList.add("activeSale");
+      const saleText = document.createElement("p");
+      saleText.textContent = product.discount + "%";
+      activeSale.appendChild(saleText);
+      status.appendChild(activeSale);
+    }
 
     const activeNew = document.createElement("div");
     activeNew.classList.add("activeNew");
     activeNew.textContent = "New";
 
-    status.appendChild(activeSale);
     status.appendChild(activeNew);
     productStatus.appendChild(status);
 
@@ -64,10 +66,14 @@ function DisplayCards(arr) {
     const productPrice = document.createElement("p");
     productPrice.classList.add("productPrice");
     productPrice.textContent = "$" + product.oldPrice;
+    const oldPrice = document.createElement("p");
+    oldPrice.classList.add("oldPrice");
+    oldPrice.textContent = "$" + product.price;
 
     productText.appendChild(productName);
     productText.appendChild(productPrice);
     productItem.appendChild(productText);
+    productItem.appendChild(oldPrice);
 
     const productButton = document.createElement("div");
     productButton.classList.add("productButton");
@@ -79,12 +85,9 @@ function DisplayCards(arr) {
     card.appendChild(productItem);
   });
 }
-
-
+DisplayCards(products);
 
 // BESTSELLERS CARDS
-
-DisplayCards(products);
 const bestSellersBox = document.querySelector(".bestSellersBox");
 
 function DisplayBestSellers(arr) {
@@ -98,20 +101,23 @@ function DisplayBestSellers(arr) {
     const status = document.createElement("div");
     status.classList.add("status");
 
-    const activeSale = document.createElement("div");
-    activeSale.classList.add("activeSale");
-    const saleText = document.createElement("p");
-    saleText.textContent = product.discount + "%";
-    activeSale.appendChild(saleText);
+    if (product.discount) {
+      const activeSale = document.createElement("div");
+      activeSale.classList.add("activeSale");
+      const saleText = document.createElement("p");
+      saleText.textContent = product.discount + "%";
+      activeSale.appendChild(saleText);
+      status.appendChild(activeSale);
+    }
 
-    const activeNew = document.createElement("div");
-    activeNew.classList.add("activeNew");
-    activeNew.textContent = "New";
+    if (product.isNew) {
+      const activeNew = document.createElement("div");
+      activeNew.classList.add("activeNew");
+      activeNew.textContent = "New";
 
-    status.appendChild(activeSale);
-    status.appendChild(activeNew);
-    productStatus.appendChild(status);
-
+      status.appendChild(activeNew);
+      productStatus.appendChild(status);
+    }
     const heartButton = document.createElement("div");
     heartButton.classList.add("heartButton");
     const heartIcon = document.createElement("i");
@@ -151,9 +157,14 @@ function DisplayBestSellers(arr) {
     productPrice.classList.add("productPrice");
     productPrice.textContent = "$" + product.oldPrice;
 
+    const oldPrice = document.createElement("p");
+    oldPrice.classList.add("oldPrice");
+    oldPrice.textContent = "$" + product.price;
+
     productText.appendChild(productName);
     productText.appendChild(productPrice);
     productItem.appendChild(productText);
+    productItem.appendChild(oldPrice);
 
     const productButton = document.createElement("div");
     productButton.classList.add("productButton");
@@ -163,8 +174,6 @@ function DisplayBestSellers(arr) {
     productItem.appendChild(productButton);
 
     bestSellersBox.appendChild(productItem);
-
-    
   });
 }
 
