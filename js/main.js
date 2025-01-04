@@ -178,3 +178,6 @@ function DisplayBestSellers(arr) {
 }
 
 DisplayBestSellers(products);
+
+
+// 
