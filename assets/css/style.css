@@ -625,3 +625,31 @@ footer {
 }
 
 /* FOOTER END */
+
+
+/* FOOTER DOWN START */
+.footerDownItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.footerDownText p {
+  color: #212121BF;
+  font-size: 16px;
+}
+
+.footerDownSocials {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.footerDownSocials i {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+/* FOOTER DOWN END */
