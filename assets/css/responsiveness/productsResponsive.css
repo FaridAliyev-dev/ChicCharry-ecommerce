@@ -1,0 +1,11 @@
+@media (max-width: 558px) {
+      .featuredProductsText {
+            flex-direction: column !important;
+      }
+
+      .bestProductsText {
+            flex-direction: column !important;
+      }
+
+
+}
