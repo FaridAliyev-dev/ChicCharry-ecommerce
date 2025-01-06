@@ -5,6 +5,7 @@
 
       .bestProductsText {
             flex-direction: column !important;
+            text-align: center;
       }
 
 
