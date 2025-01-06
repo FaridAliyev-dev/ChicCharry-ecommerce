@@ -1,12 +1,11 @@
 @media (max-width: 558px) {
-      .featuredProductsText {
-            flex-direction: column !important;
-      }
+  .featuredProductsText {
+    flex-direction: column !important;
+    text-align: center;
+  }
 
-      .bestProductsText {
-            flex-direction: column !important;
-            text-align: center;
-      }
-
-
+  .bestProductsText {
+    flex-direction: column !important;
+    text-align: center;
+  }
 }
